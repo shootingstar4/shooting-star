@@ -122,7 +122,7 @@
 					clearInterval(me.createIntervalId);
 				}
 				counter++;
-			}.bind(this), 250);
+			}.bind(this), 50);
 		}
 		else {
 			// Create particle objects
